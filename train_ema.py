@@ -5,14 +5,14 @@ DATA_PATH = r"NEU-DET/steel_defect.yaml"
 warnings.filterwarnings('ignore')
 
 def main():
-    print("🚀 正在初始化魔改版 YOLOv11-CBAM...")
+    print("🚀 正在初始化魔改版 YOLOv11-ema...")
 
     # ---------------------------------------------------
     # 1. 构建模型骨架 (关键步骤！)
     # ---------------------------------------------------
     # 这里必须加载你的 yaml 文件，而不是 .pt 文件
     # 因为我们要告诉程序：按我看好的新图纸（加了新模块的）来造模型
-    model = YOLO('yolov11n_cbam.yaml')
+    model = YOLO('yolov11n_ema.yaml')
 
     # ---------------------------------------------------
     # 2. 加载预训练权重 (迁移学习)

@@ -1,0 +1,20 @@
+# 忽略 PyCharm 配置
+.idea/
+__pycache__/
+venv/
+
+# 忽略数据集和训练结果
+datasets/
+runs/
+NEU_Result/
+NEU-DET/
+NEU_Test/
+working/
+
+# 忽略权重文件
+*.pt
+*.onnx
+
+# 忽略其他大文件
+*.zip
+*.rar

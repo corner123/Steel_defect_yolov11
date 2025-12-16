@@ -61,7 +61,9 @@ from .block import (
     TorchVision,
 )
 from .conv import (
+
     CBAM,
+    EMA,
     ChannelAttention,
     Concat,
     Conv,
@@ -110,6 +112,7 @@ __all__ = (
     "C3",
     "C3TR",
     "CBAM",
+    "EMA",
     "CIB",
     "DFL",
     "ELAN1",
