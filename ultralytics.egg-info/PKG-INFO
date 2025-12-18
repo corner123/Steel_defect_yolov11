@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: ultralytics
+Version: 8.3.0
+Summary: Ultralytics YOLOv8 modes
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: AGPL-3.0 License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.3.0
+Requires-Dist: numpy>=1.22.2
+Requires-Dist: opencv-python>=4.6.0
+Requires-Dist: pillow>=7.1.2
+Requires-Dist: pyyaml>=5.3.1
+Requires-Dist: requests>=2.23.0
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: torch>=1.8.0
+Requires-Dist: torchvision>=0.9.0
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: pandas>=1.1.4
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: psutil
+Requires-Dist: py-cpuinfo
+Dynamic: classifier
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

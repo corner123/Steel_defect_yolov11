@@ -11,6 +11,7 @@ import torch.nn as nn
 
 __all__ = (
     "CBAM",
+    "EMA",
     "ChannelAttention",
     "Concat",
     "Conv",

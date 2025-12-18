@@ -39,7 +39,7 @@ def main():
         device='cpu',         # 强制用 CPU
         workers=0,            # Windows 必设为 0，否则卡死
         project='NEU_Test',   # 保存结果的主文件夹
-        name='cbam_verification', # 实验名字
+        name='ema_verification', # 实验名字
         exist_ok=True,        # 覆盖同名结果
         plots=True            # 画图
     )
