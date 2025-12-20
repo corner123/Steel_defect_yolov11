@@ -1,6 +1,8 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 """Convolution modules."""
 
+
+# 这个py通常放卷积相关的基础组件
 from __future__ import annotations
 
 import math
